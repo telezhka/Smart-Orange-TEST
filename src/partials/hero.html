@@ -3,15 +3,34 @@
     <div class="hero-left">
       <h1>Project<span>Home</span></h1>
       <div class="hero-btns">
-        <button type="button" class="b-left"></button>
-        <button type="button" class="b-right"></button>
+        <button type="button" class="b-left">
+          <svg class="arrow-left">
+            <use href="./images/icons.svg#icon-left"></use>
+          </svg>
+        </button>
+
+        <button type="button" class="b-right">
+          <svg class="arrow-right">
+            <use href="./images/icons.svg#icon-right"></use>
+          </svg>
+        </button>
       </div>
-      <div class="hero-counter"><span>1</span><span>2</span></div>
-      <!-- Между ними слеш через before/after -->
+      <div class="hero-counter">
+        <span>1</span>
+        <svg class="slash" fill="black">
+          <use href="./images/icons.svg#icon-slash"></use>
+        </svg>
+        <span>2</span>
+      </div>
     </div>
     <div class="hero-right">
       <!-- <img src="" alt="hero image" /> -->
-      <button type="button" class="hero-img-btn">Взглянуть</button>
+      <button type="button" class="hero-img-btn">
+        Взглянуть
+        <svg class="arrow-right">
+          <use href="./images/icons.svg#icon-right"></use>
+        </svg>
+      </button>
       <!-- стрелка before absolute -->
     </div>
   </div>

@@ -1,2 +1,8 @@
-@import './common';
-@import './reset';
+// reset, normalize
+@import './base/common';
+@import './base/reset';
+// basic settings
+@import './components/container';
+
+// layout styles
+@import './layout/header'

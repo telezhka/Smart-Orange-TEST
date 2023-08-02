@@ -1,1 +1,32 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+@font-face {
+    font-family: 'TT Hoves';
+    src: local('TT Hoves Light'), local('TT-Hoves-Light'),
+        url('../../fonts/TTHoves-Light.ttf') format('woff2'),
+        url('../../fonts/TTHoves-Light.woff') format('woff'),
+        url('../../fonts/TTHoves-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TT Hoves';
+    src: local('TT Hoves Regular'), local('TT-Hoves-Regular'),
+        url('../../fonts/TTHoves-Regular.woff2') format('woff2'),
+        url('../../fonts/TTHoves-Regular.woff') format('woff'),
+        url('../../fonts/TTHoves-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TT Hoves';
+    src: local('TT Hoves Bold'), local('TT-Hoves-Bold'),
+        url('../../fonts/TTHoves-Bold.woff2') format('woff2'),
+        url('../../fonts/TTHoves-Bold.woff') format('woff'),
+        url('../../fonts/TTHoves-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+body{
+    font-family: 'TT Hoves', sans-serif;
+    font-weight: 400;
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+.section-heading.task {
+  margin-bottom: 60px;
+}
+.task-list {
+  display: flex;
+  gap: 187px;
+}
+.task-list-item {
+  display: flex;
+  align-items: center;
+}
+.big-num {
+  color: #f2f2f2;
+  font-family: 'SF Pro Display', sans-serif;
+  font-size: 200px;
+  font-style: bold;
+  font-weight: 900;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 104px;
+  height: 140px;
+  transform: scale(1, 0.9);
+  margin-right: 30px;
+}
+.main-text {
+  color: #333;
+  font-family: TT Hoves;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.64;
+}
+.main-text.first {
+  max-width: 279px;
+}
+.main-text.second {
+  max-width: 420px;
+}

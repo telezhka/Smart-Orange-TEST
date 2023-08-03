@@ -1,0 +1,62 @@
+.about-cont {
+  background-color: #fbfbfb;
+  position: relative;
+  padding: 30px 0 30px 700px;
+}
+.about1-img {
+  position: absolute;
+  top: 30px;
+  left: 100px;
+}
+.about2-img {
+  position: absolute;
+  left: 100px;
+  top: 325px;
+}
+.about3-img {
+  position: absolute;
+  left: 400px;
+  top: 60px;
+}
+.section-heading.about {
+  margin-bottom: 20px;
+}
+.about-desc {
+  max-width: 400px;
+  color: #000;
+  font-family: TT Hoves;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.5625; /* 156.25% */
+  margin-bottom: 20px;
+}
+.about-btn {
+  width: 222px;
+  height: 71px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 30px 0;
+  padding-left: 65px;
+  border: none;
+  background-color: #fff;
+}
+.about-btn:hover,
+.about-btn:focus {
+  background-color: #f9f9f9;
+  border: 1px solid #f2f2f2;
+}
+.about-btn-text {
+  color: #333;
+  font-family: TT Hoves;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1; /* 100% */
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+.section.about-company {
+  margin-bottom: 150px;
+}

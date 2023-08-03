@@ -1,64 +1,90 @@
 <section class="section">
   <div class="container">
-    <h2 class="section-heading">Связаться с нами</h2>
-    <form action="">
-      <div>
-        <label for="name">Имя</label>
-        <input type="text" id="name" name="name" required placeholder="Имя" />
-      </div>
-      <div>
-        <label for="num">Номер</label>
-        <input
-          type="number"
-          id="num"
-          name="num"
-          required
-          placeholder="Номер телефона"
-        />
-      </div>
-      <div>
-        <label for="email">Email</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          required
-          placeholder="Email"
-        />
-      </div>
-      <div>
-        <label for="request">Интересующий товар/услуга</label>
-        <input
-          type="text"
-          id="message"
-          name="request"
-          placeholder="Интересующий товар/услуга"
-        />
-      </div>
-      <div>
-        <label for="message">Сообщение</label>
-        <input
-          type="text"
-          id="message"
-          name="message"
-          required
-          placeholder="Сообщение"
-        />
-      </div>
-      <div>
-        <label for="terms">Согласие</label>
-        <input type="checkbox" name="terms" id="terms" required />
-        <span
-          >Отправляя заявку Вы соглашаетесь с политикой конфиденциальности
-        </span>
-      </div>
-      <button type="submit" class="form-sub-btn">
-        Отправить
-        <svg class="arrow-right white">
-          <use href="./images/icons.svg#icon-right"></use>
-        </svg>
-      </button>
-    </form>
-    <!-- <img src="" alt=""> -->
+    <h2 class="section-heading contact">Связаться с нами</h2>
+    <div class="contact-cover">
+      <form action="" class="form">
+        <div>
+          <label for="name">Имя</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Имя"
+            class="name"
+          />
+        </div>
+        <div>
+          <label for="num">Номер</label>
+          <input
+            type="number"
+            id="num"
+            name="num"
+            required
+            placeholder="Номер телефона"
+            class="number"
+          />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Email"
+            class="mail"
+          />
+        </div>
+        <div>
+          <label for="request">Интересующий товар/услуга</label>
+          <input
+            type="text"
+            id="message"
+            name="request"
+            placeholder="Интересующий товар/услуга"
+            class="interest"
+          />
+        </div>
+        <div>
+          <label for="message">Сообщение</label>
+          <textarea
+            type="text"
+            id="message"
+            name="message"
+            required
+            placeholder="Сообщение"
+            class="message"
+            rows="6"
+          ></textarea>
+        </div>
+        <div class="check-cover">
+          <label for="terms">Согласие</label>
+          <input
+            type="checkbox"
+            name="terms"
+            id="terms"
+            required
+            class="checkbox"
+          />
+          <span class="agree"
+            >Отправляя заявку Вы соглашаетесь с политикой конфиденциальности
+          </span>
+        </div>
+        <button type="submit" class="form-sub-btn">
+          <span class="form-sub-text">Отправить</span>
+
+          <svg class="arrow-right white">
+            <use href="./images/icons.svg#icon-right"></use>
+          </svg>
+        </button>
+      </form>
+      <img
+        class="contact1"
+        srcset="./images/contact.jpg 1x, ./images/contact@2x.jpg 2x"
+        src="./images/contact.jpg"
+        alt="contact image"
+      />
+    </div>
   </div>
 </section>

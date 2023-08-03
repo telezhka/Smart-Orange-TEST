@@ -1,0 +1,101 @@
+.section-heading.contact {
+  margin-bottom: 22px;
+}
+label {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+  color: #8d8d8d;
+  font-family: TT Hoves;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+}
+input,
+textarea {
+  background-color: #f3f3f3;
+  border: none;
+  width: 390px;
+}
+.name,
+.number,
+.mail,
+.interest {
+  margin-bottom: 10px;
+  height: 46px;
+  padding-left: 20px;
+}
+.message {
+  padding-left: 20px;
+  height: 146px;
+  position: relative;
+  resize: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 14px;
+  padding-top: 14px;
+  margin-bottom: 22px;
+  //   display: flex;
+  //   align-items: flex-start;
+}
+.message::placeholder {
+  position: absolute;
+  left: 20px;
+  top: 14px;
+}
+.check-cover {
+  display: flex;
+  align-items: center;
+  margin-bottom: 22px;
+}
+.checkbox {
+  //   display: block;
+  width: 20px;
+  margin-right: 12px;
+}
+.agree {
+  //   display: block;
+  color: #333;
+  font-family: TT Hoves;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  width: 330px;
+}
+.form-sub-btn {
+  width: 222px;
+  height: 71px;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-sub-text {
+  color: #fff;
+  font-family: TT Hoves;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1; /* 100% */
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  margin-right: 12px;
+}
+.contact-cover {
+  display: flex;
+  gap: 30px;
+}
+.contact1 {
+  height: 369px;
+}

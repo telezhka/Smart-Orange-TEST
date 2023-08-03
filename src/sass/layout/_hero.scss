@@ -90,11 +90,18 @@
   border: 1px solid #fff;
   left: 0;
   bottom: 0;
+  opacity: 0;
+  z-index: 5;
 }
 .hero-img-btn:hover,
 .hero-img-btn:focus {
   background-color: #f9f9f9;
   border: 1px solid #f2f2f2;
+  opacity: 1;
+}
+.hero-img:hover + .hero-img-btn,
+.hero-img:focus + .hero-img-btn {
+  opacity: 1;
 }
 .hero-btn-text {
   font-family: TT Hoves;

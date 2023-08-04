@@ -1,13 +1,14 @@
 .container {
   margin: 0 auto;
   // padding: 0 135px;
+  max-width: 1170px;
 }
 .section,
 .header,
 .footer {
   padding-right: 135px;
   padding-left: 135px;
-  max-width: 1440px;
+
   margin: 0 auto;
 }
 .section {

@@ -4,4 +4,5 @@
  <!-- 19:00 - 19:20 - add form -->
  <!-- 19:45 - 22:00 - finish html + pics -->
 <!-- 22:00 - 00:30 - add fonts, base styles, header, hero-->
-<!-- 23:00 -  -->
+<!-- 23:00 - 02:20 - add main tasks, contact us, our projectss, about cpmpany -->
+<!-- 10:10 -  -->

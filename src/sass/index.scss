@@ -1,7 +1,6 @@
-// reset, normalize
+// reset, normalize, basic settings
 @import './base/common';
 @import './base/reset';
-// basic settings
 @import './components/container';
 
 // layout styles
@@ -11,3 +10,4 @@
 @import './layout/main-tasks';
 @import './layout/our-projects';
 @import './layout/contact-us';
+@import './layout/footer';

@@ -4,7 +4,7 @@
 }
 // left side
 .hero-title {
-  color: #bdbdbd;
+  color: $heading-color;
   font-family: TT Hoves;
   font-size: 64px;
   font-style: normal;
@@ -14,7 +14,7 @@
   margin-bottom: 90px;
 }
 .hero-title-black {
-  color: #333;
+  color: $dark-color;
   font-family: TT Hoves;
   font-size: 64px;
   font-style: normal;
@@ -24,8 +24,8 @@
 .b-left {
   width: 53px;
   height: 53px;
-  border: 1px solid #f2f2f2;
-  background-color: #fff;
+  border: 1px solid $light-secondary;
+  background-color: $light-color;
   margin-right: 23px;
   display: flex;
   align-items: center;
@@ -36,7 +36,7 @@
 .b-left:focus {
   width: 53px;
   height: 53px;
-  border: 1px solid #f2f2f2;
+  border: 1px solid $light-secondary;
   background-color: #f9f9f9;
   display: flex;
   align-items: center;
@@ -51,7 +51,7 @@
   position: relative;
 }
 .small {
-  color: #bdbdbd;
+  color: $heading-color;
   font-family: TT Hoves;
   font-size: 24px;
   font-style: normal;
@@ -68,7 +68,7 @@
   left: 50px;
   width: 44px;
   height: 2px;
-  background-color: #bdbdbd;
+  background-color: $heading-color;
   transform-origin: bottom left; /* Встановлюємо точку трансформації у нижньому лівому куті */
   transform: rotate(-45deg); /* Обертаємо смужку на 45 градусів */
 }
@@ -87,8 +87,8 @@
   display: flex;
   padding-left: 50px;
   align-items: center;
-  background-color: #fff;
-  border: 1px solid #fff;
+  background-color: $light-color;
+  border: 1px solid $light-color;
   left: 0;
   bottom: 0;
   opacity: 0;
@@ -98,7 +98,7 @@
 .hero-img-btn:hover,
 .hero-img-btn:focus {
   background-color: #f9f9f9;
-  border: 1px solid #f2f2f2;
+  border: 1px solid $light-secondary;
   opacity: 1;
 }
 .hero-img:hover + .hero-img-btn,

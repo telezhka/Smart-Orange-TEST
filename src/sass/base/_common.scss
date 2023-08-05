@@ -29,22 +29,22 @@
 body {
   font-family: 'TT Hoves', sans-serif;
   font-weight: 400;
-  background-color: #fff;
+  background-color: $light-color;
 }
 .arrow-right {
   display: block;
   width: 24px;
   height: 24px;
-  fill: #333;
+  fill: $dark-color;
 }
 .arrow-left {
   display: block;
   width: 24px;
   height: 24px;
-  fill: #333;
+  fill: $dark-color;
 }
 .section-heading {
-  color: #bdbdbd;
+  color: $heading-color;
   font-family: TT Hoves;
   font-size: 64px;
   font-style: normal;

@@ -14,7 +14,7 @@
   gap: 60px;
 }
 .nav-anchor {
-  color: #333;
+  color: $dark-color;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -35,7 +35,7 @@
   width: 100%;
   height: 2px;
   // background-color: rgb(174, 0, 255);
-  background-color: #333;
+  background-color: $dark-color;
   opacity: 0;
   transition: opacity 0.3s;
 }
@@ -48,7 +48,7 @@
   width: 100%;
   height: 2px;
   // background-color: rgb(174, 0, 255);
-  background-color: #333;
+  background-color: $dark-color;
   opacity: 0;
   transition: opacity 0.3s;
 }

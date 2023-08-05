@@ -11,7 +11,7 @@
   align-items: center;
 }
 .big-num {
-  color: #f2f2f2;
+  color: $light-secondary;
   font-family: 'SF Pro Display', sans-serif;
   font-size: 200px;
   font-style: bold;
@@ -26,7 +26,7 @@
   margin-right: 30px;
 }
 .main-text {
-  color: #333;
+  color: $dark-color;
   font-family: TT Hoves;
   font-size: 22px;
   font-style: normal;

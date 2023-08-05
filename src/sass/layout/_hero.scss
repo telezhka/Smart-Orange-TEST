@@ -30,6 +30,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 0.3s;
 }
 .b-left:hover,
 .b-left:focus {
@@ -91,6 +92,7 @@
   left: 0;
   bottom: 0;
   opacity: 0;
+  transition: opacity 0.3s, background-color 0.3s;
   z-index: 5;
 }
 .hero-img-btn:hover,

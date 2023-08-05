@@ -43,6 +43,22 @@
   font-weight: 500;
   line-height: 1.71429; /* 171.429% */
   letter-spacing: 0.42px;
+  position: relative;
+}
+.info-list-item-text::after {
+  content: '';
+  position: absolute;
+  display: block;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.info-list-item-text:hover::after {
+  opacity: 1;
 }
 .footer-info {
   margin-right: 150px;

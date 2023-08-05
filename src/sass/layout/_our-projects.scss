@@ -30,6 +30,10 @@
   padding-right: 78px;
   padding-top: 48px;
   z-index: 2;
+  transition: opacity 0.3s;
+}
+.project-card.third {
+  padding-left: 50px;
 }
 .project-card:hover,
 .project-card:focus {
@@ -83,7 +87,7 @@
   text-transform: uppercase;
 }
 .arrow-right.white {
-  fill: white;
+  fill: #fff;
 }
 .all-projects-link {
   width: 222px;
@@ -92,11 +96,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 0.3s;
   //   float: right;
+}
+.all-projects-link:hover,
+.all-projects-link:focus {
+  background-color: rgba(51, 51, 51, 0.8);
 }
 .all-projects {
   color: #fff;
-  font-family: TT Hoves;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
